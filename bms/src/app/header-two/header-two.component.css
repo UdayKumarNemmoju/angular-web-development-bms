@@ -1,0 +1,65 @@
+
+.header2div{
+    height: 40px;
+    background-color: #222539;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px 0px 0px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline;
+    text-decoration: none;
+}
+.ul1 ul li a{
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    color: #cccccc;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-right: 18px;
+}
+.ul2 ul li a{
+    font-family: Roboto,sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-right: 15px;
+}
+sup{
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    color: #cccccc;
+    text-transform: capitalize;
+    padding-top: 10px !important;
+    margin-top: 10px !important;
+    vertical-align: super;
+    
+}
+.sup2{
+    font-family: Roboto,sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.ul2{
+    padding-right: 0px !important;
+    padding-left: 60px;
+}
+
+.ul1{
+    padding-left: 22px;
+}
+.ul1 ul li a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.sup1:hover{
+    color: #ffffff;
+}
+
+

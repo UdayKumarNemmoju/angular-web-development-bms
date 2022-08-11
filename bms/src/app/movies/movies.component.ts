@@ -139,20 +139,8 @@ export class MoviesComponent implements OnInit {
   ]
   cards7 = [
     {
-      image: "",
-      title: "Thank You", certificate: "UA", Languages: "Telugu"
-    },
-    {
-      image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-NjAwIGxpa2Vz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00333997-vaftcymtax-portrait.jpg",
+      image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@heart_202006300400.png,ox-24,oy-617,ow-29:ote-ODYlICAxMWsgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00122133-bbggujchps-portrait.jpg",
       title: "Shamshera", certificate: "UA", Languages: "Tamil, Hindi, Telugu"
-    },
-    {
-      image: "",
-      title: "The Warriorr", certificate: "UA", Languages: "Telugu, Tamil"
-    },
-    {
-      image: "",
-      title: "Ramarao on Duty", Languages: "Telugu, Hindi"
     },
   ]
 

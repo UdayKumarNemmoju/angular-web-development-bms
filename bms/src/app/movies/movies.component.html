@@ -17,10 +17,103 @@
 
 </head>
 
-<body class="body">
-    <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1659698671454_lsc_web.jpg" alt="no image">
+<body class="movi">
+    <div class="container">
+        <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1659698671454_lsc_web.jpg" alt="no image" class="lal">
 
-
+        <div class="row" style="margin-top: 80px;margin-left: -70px;">
+            <div class="col-md-4" style="border: 1px solid red;">
+                <h4 class="mh4">Filters</h4>
+                <div class="lan">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="arow"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+                    </svg>
+                    <h6>Languages</h6><a href="#" class="anc">Clear</a>
+                    <ul class="tel">
+                        <li><a href="#">Telugu </a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">Hindi</a></li>
+                    </ul>
+                    <ul class="mal">
+                        <li><a href="#">Malayalam </a></li>
+                        <li><a href="#">Kannada</a></li>
+                        <li><a href="#">Tamil</a></li>
+                    </ul>
+                    <ul class="jap">
+                        <li><a href="#">Japanese</a></li>
+                    </ul>
+                </div>
+                <div class="gen">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="arow"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+                    </svg>
+                    <h6>Genres</h6><a href="#" class="anc">Clear</a>
+                    <ul class="tel">
+                        <li><a href="#">Drama </a></li>
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Thriller</a></li>
+                    </ul>
+                    <ul class="mal">
+                        <li><a href="#">Advanture </a></li>
+                        <li><a href="#">Comedy</a></li>
+                        <li><a href="#">Fantacy</a></li>
+                    </ul>
+                    <ul class="jap">
+                        <li><a href="#">Japanese</a></li>
+                    </ul>
+                </div>
+                <div class="for">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="arow"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+                    </svg>
+                    <h6>Format</h6><a href="#" class="anc">Clear</a>
+                    <ul class="vew">
+                        <li><a href="#">2D</a></li>
+                        <li><a href="#">3D</a></li>
+                        <li><a href="#">4DX</a></li>
+                        <li><a href="#">4DX3D</a></li>
+                    </ul>
+                </div>
+                <div class="brow">
+                    <div class="by">Browse by Cinemas</div>
+                </div>
+            </div>
+            <div class="col-md-8" style="border: 1px solid orange;">
+                <h4 style="margin-left: -60px;" class="mh4">Movies In Hyderabad</h4>
+                <ul class="bas">
+                    <li><a href="#">Telugu </a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Hindi</a></li>
+                    <li><a href="#">Japanese</a></li>
+                    <li><a href="#">Malayalam</a></li>
+                    <li><a href="#">Kannada</a></li>
+                    <li><a href="#">Tamil</a></li>
+                    <li><a href="#">Gujarati</a></li>
+                    <li><a href="#">Marathi</a></li>
+                </ul>
+                <div class="comi">
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/coming-soon-web-collection-202012090733.png"
+                        class="solo">
+                </div>
+                <div class="container body">
+                    <div class="row" style="margin-top: 40px;">
+                        <div class="cd" *ngFor="let cd of cards">
+                            <a href="#"> <img src="{{cd.image}}" class="image" style="width: 200px; height:320px;"></a>
+                            <h4 class="hr">{{cd.title}}</h4>
+                            <p class="pr">{{cd.certificate}}</p>
+                            <p class="pr1">{{cd.Languages}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -248,14 +248,13 @@
     margin-top: 20px;
     margin-left: 90px;
 
-
 }
 
 .pr {
     color: rgb(102, 102, 102);
     font-size: 14px;
     font-weight: normal;
-    margin-top: -4px;
+    margin-top: 4px;
     margin-left: 80px;
 }
 
@@ -263,6 +262,6 @@
     color: rgb(102, 102, 102);
     font-size: 14px;
     font-weight: normal;
-    margin-top: -15px;
+    margin-top: 15px;
     margin-left: 80px;
 }

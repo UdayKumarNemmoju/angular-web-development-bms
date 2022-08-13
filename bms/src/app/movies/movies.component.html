@@ -22,7 +22,7 @@
         class="raki">
     <div class="container">
         <div class="row">
-            <div class="col-md-2" style="margin-left: -50px;">
+            <div class="col-md-2" style="margin-left: -50px;border: 1px solid orange;">
                 <div class="filt">filters</div>
                 <div class="lan">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="arow"
@@ -84,7 +84,7 @@
                     <div class="by">Browse by Cinemas</div>
                 </div>
             </div>
-            <div class="col-md-10" style="margin-left: 50px;">
+            <div class="col-md-10" style="margin-left: 50px;border: 1px solid red;">
                 <div class="hyd">movies in hyderabad</div>
                 <ul class="bash">
                     <li><a href="#">English</a></li>
@@ -98,8 +98,8 @@
                 <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/coming-soon-web-collection-202012090733.png"
                     class="coming">
                 <div class="row">
-                    <div class="cd" *ngFor="let cd of cards">
-                        <a href="#"> <img src="{{cd.image}}" class="image" style="width: 200px; height:320px;"></a>
+                    <div class="cd" *ngFor="let cd of cards" style="border: 2px solid green;">
+                        <a href="#"> <img src="{{cd.image}}" class="image" style="width: 200px; height:340px;"></a>
                         <div class="hr">{{cd.title}}</div>
                         <p class="pr">{{cd.certificate}}</p>
                         <p class="pr1">{{cd.Languages}}</p>

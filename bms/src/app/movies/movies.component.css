@@ -118,9 +118,9 @@
     color: rgb(102, 102, 102);
     font-size: 12px;
     float: left;
-    margin-left: 205px;
+    margin-left: 250px;
     margin-top: -20px;
-
+    display: block;
 }
 
 .clear:hover {
@@ -199,13 +199,13 @@
     line-height: 30px;
     color: rgb(51, 51, 51);
     margin-top: 80px;
-    margin-left: 110px;
+    margin-left: 35px;
 }
 
 .bash {
     list-style: none;
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: -15px;
 }
 
 .bash li {
@@ -230,14 +230,14 @@
 }
 
 .coming {
-    width: 880px;
+    width: 910px;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 35px;
 }
 
 .cd {
     width: 200px;
-    margin-left: 25px;
+    margin-left: 35px;
     margin-top: 50px;
 }
 
@@ -245,7 +245,7 @@
     width: 230px;
     height: 375px;
     border-radius: 8px;
-    margin-left: 80px;
+    margin-left: 15px;
 }
 
 .hr {
@@ -253,7 +253,7 @@
     font-size: 18px;
     font-weight: 500;
     margin-top: 30px;
-    margin-left: 90px;
+    margin-left: 20px;
 
 }
 
@@ -262,7 +262,7 @@
     font-size: 14px;
     font-weight: normal;
     margin-top: 4px;
-    margin-left: 90px;
+    margin-left: 20px;
 }
 
 .pr1 {
@@ -270,7 +270,7 @@
     font-size: 14px;
     font-weight: normal;
     margin-top: 10px;
-    margin-left: 90px;
+    margin-left: 20px;
 }
 
 .home {

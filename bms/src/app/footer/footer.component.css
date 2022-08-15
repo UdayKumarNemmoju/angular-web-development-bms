@@ -1,0 +1,155 @@
+.bottom {
+    width: 100%;
+    height: 1600px;
+    background-color: rgb(49, 48, 53);
+}
+
+p {
+    font-size: 12.5px;
+    color: rgb(127, 127, 127);
+    font-display: inherit;
+    margin-top: 20px;
+}
+
+h6 {
+    color: rgb(127, 127, 127);
+}
+
+.hd {
+    width: 100%;
+    height: 110px;
+    background-color: rgb(64, 64, 67);
+    margin-top: 30px;
+}
+
+.img {
+    margin-left: 155px;
+    width: 32px;
+    height: 32px;
+    margin-top: 25px;
+}
+
+.up h6 {
+    margin-left: 210px;
+    margin-top: -23px;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.up h5 {
+    margin-top: -28px;
+    font-size: 16px;
+    font-weight: 500;
+    vertical-align: initial;
+    margin-left: 340px;
+    color: white;
+}
+
+.up p {
+    float: right;
+    margin-right: 140px;
+    margin-top: -40px;
+    font-size: 15px;
+    background-color: rgb(236, 94, 113);
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.care {
+    color: rgba(188, 192, 196, 0.74);
+    text-decoration: none;
+    font-size: 11px;
+    float: left;
+    margin-left: -220px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.care:hover {
+    color: white;
+}
+
+.cust {
+    color: rgb(153, 153, 153);
+    margin-left: 310px;
+    margin-top: 14px;
+}
+
+.mysh {
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.online {
+    list-style: none;
+    margin-top: 18px;
+}
+
+.online li {
+    margin-top: -2px;
+    margin-left: -32px;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+
+.online li a {
+    text-decoration: none;
+    color: rgb(220, 53, 88);
+}
+
+.fb {
+    margin-left: 600px;
+    margin-top: 40px;
+}
+
+.book {
+    color: rgba(188, 192, 196, 0.74);
+    text-decoration: none;
+    font-size: 11px;
+    float: right;
+    margin-right: 640px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.book:hover {
+    color: white;
+}
+
+.ticket {
+    color: rgb(153, 153, 153);
+    margin-left: 250px;
+    margin-top: 15px;
+}
+
+.sub {
+    color: rgba(188, 192, 196, 0.74);
+    text-decoration: none;
+    font-size: 11px;
+    float: left;
+    margin-left: 1100px;
+    cursor: pointer;
+    margin-top: -15px;
+}
+
+.sub:hover {
+    color: white;
+}
+
+.letter {
+    color: rgb(153, 153, 153);
+    margin-top: -50px;
+    margin-left: 850px;
+}
+
+.col-md-3 {
+    float: right;
+}

@@ -1,3 +1,7 @@
+.onlin {
+    padding-left: 80px;
+    padding-right: 80px;
+}
 .top {
     color: rgb(165, 165, 165);
     font-size: 12.5px;
@@ -67,13 +71,13 @@ a {
     justify-content: center;
     height: 125px;
 }
-.sho {
+/* .sho {
     flex: 1 1 0%;
     height: 1px;
     background: rgb(93, 93, 95);
-}
+} */
 .line {
-    padding: 0px 20px;
+    padding: 0px 670px;
 }
 .copy {
     padding: 30px;

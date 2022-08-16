@@ -24,45 +24,24 @@
 }
 
 
-.mybook {
+.bkmyshow {
     display: flex;
     padding: 0px 24px 20px;
     font-size: 11px;
     -webkit-box-align: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(49, 48, 53);;
+    background-color: rgb(49, 48, 53);
 }
-.sh {
+
+.myshow {
     padding: 0px;
     margin: 0px;
     flex-basis: auto;
     width: 100%;
 }
-.app {
-    display: inline-block;
-    margin-right: 10px;
-    width: 37px;
-    height: 37px;
-}
-.app svg {
-    fill: rgb(93, 93, 95);
-}
-.app svg a:hover{
-    color: white;
-}
-a {
-    background: #0000;
-    font-size: 100%;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    vertical-align: initial;
-}
-.mainapp {
-    text-align: center;
-}
-.show {
+
+.bshow {
     display: flex;
     width: 100%;
     -webkit-box-align: center;
@@ -71,18 +50,49 @@ a {
     justify-content: center;
     height: 125px;
 }
-/* .sho {
+
+.shw {
     flex: 1 1 0%;
     height: 1px;
     background: rgb(93, 93, 95);
-} */
-.line {
-    padding: 0px 670px;
 }
-.copy {
+
+.bmig {
+    padding: 0px 20px;
+}
+
+embed, img, object {
+    max-width: 100%;
+}
+
+img {
+    /* border: 0; */
+    color: #999;
+    /* font-size: 12px; */
+}
+
+.bmicon {
+    text-align: center;
+}
+
+.myapps {
+    display: inline-block;
+    margin-right: 10px;
+    width: 37px;
+    height: 37px;
+}
+
+.myapps svg {
+    fill: rgb(93, 93, 95);
+}
+
+.myapps svg:hover {
+    color: #fff;
+}
+
+.copyryt {
     padding: 30px;
     font-size: 11px;
     color: rgb(102, 102, 102);
     text-align: center;
-    cursor: default;
 }

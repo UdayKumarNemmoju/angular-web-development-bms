@@ -1,24 +1,39 @@
-.onlin {
-    padding-left: 80px;
-    padding-right: 80px;
+.mnsinhyd {
+    padding-left: 150px;
+    padding-right: 90px;
 }
+
 .top {
-    color: rgb(165, 165, 165);
-    font-size: 12.5px;
+    font-size: 12px;
     font-weight: 400;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
     margin-top: 25px;
-    margin-left: 32px;
+    /* margin-left: 0px; */
+    color: rgb(165, 165, 165);
 }
+
 .min {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+   margin-left: -39px;
+   margin-top: 18px;
 
 }
+
 .min li a {
-    text-decoration: none;
+    font-size: 11px;
     color: rgb(127, 127, 127);
-    font-size: 12px;
-    /* margin-left: 0px; */
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    transition: color 0.25s ease-in-out 0s;
+    margin: 0px 5px 5px 0px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(127, 127, 127);
+   
 }
+
 .min li :hover {
     color: white;
 }
@@ -61,7 +76,9 @@
     padding: 0px 20px;
 }
 
-embed, img, object {
+embed,
+img,
+object {
     max-width: 100%;
 }
 
@@ -96,3 +113,4 @@ img {
     color: rgb(102, 102, 102);
     text-align: center;
 }
+

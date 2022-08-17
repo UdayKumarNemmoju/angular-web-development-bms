@@ -38,6 +38,17 @@
     color: white;
 }
 
+.thor {
+    font-size: 11px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    transition: color 0.25s ease-in-out 0s;
+    margin: 0px 5px 5px 0px;
+    padding-right: 5px;
+    cursor: pointer;
+    
+}
 
 .bkmyshow {
     display: flex;

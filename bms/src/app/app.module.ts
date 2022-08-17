@@ -7,7 +7,6 @@ import { HeaderComponent } from './header/header.component';
 import { HeaderOneComponent } from './header-one/header-one.component';
 import { HeaderTwoComponent } from './header-two/header-two.component';
 import { MoviesComponent } from './movies/movies.component';
-import { FooterComponent } from './footer/footer.component';
 import { FooterbodyComponent } from './footerbody/footerbody.component';
 
 @NgModule({
@@ -17,7 +16,6 @@ import { FooterbodyComponent } from './footerbody/footerbody.component';
     HeaderOneComponent,
     HeaderTwoComponent,
     MoviesComponent,
-    FooterComponent,
     FooterbodyComponent,
   ],
   imports: [

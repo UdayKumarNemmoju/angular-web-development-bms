@@ -10,10 +10,10 @@ import { MoviesComponent } from './movies/movies.component';
 const routes: Routes = [
   {path:'', redirectTo: 'header', pathMatch: 'full'},
   {path:'header',component:HeaderComponent , children :[
-    {path:'headerone',component:HeaderOneComponent},
-    {path:'headertwo',component:HeaderTwoComponent},
-    {path:'movies',component:MoviesComponent},
-    {path:'corporates',component:CorporatesComponent}
+    {path:'headerone', component:HeaderOneComponent},
+    {path:'headertwo', component:HeaderTwoComponent},
+    {path:'movies', component:MoviesComponent},
+    {path:'corporates', component:CorporatesComponent}
   ]}
 ];
 

@@ -9,6 +9,7 @@ import { HeaderTwoComponent } from './header-two/header-two.component';
 import { MoviesComponent } from './movies/movies.component';
 import { FooterbodyComponent } from './footerbody/footerbody.component';
 import { CorporatesComponent } from './corporates/corporates.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CorporatesComponent } from './corporates/corporates.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
